@@ -1,0 +1,36 @@
+GRP NO – III 32
+
+Team members:
+PRINCE SINGH    (13000219108)                     
+RAJ SRI GULSHAN (13000219137)                    
+VISHAL RAM      (13001619080)
+ANIK SAJJAN     (13000220130) 
+
+GUIDED BY:
+DR.ANIRBAN GOSWAMI(FACULTY)
+SOURAV GHOSH(ALUMNI)
+
+Review recommendation from Amazon / Flipkart reviews using AI/ML:
+To design a ranking system which shows top-k recommendation for a  product based on quality and reliability of reviews.
+In this modern world we are overloaded with data and this data provides us the useful information. But it's not possible for the user to extract the information which interest them from these data. In order to help the user to find out information about the product , recommendation systems were developed.
+Recommendation system creates a similarity between the user and items and exploits the similarity between user/item to make recommendations.
+E-commerce companies like Amazon , Flipkart uses different recommendation systems to provide suggestions to the customers.Amazon uses currently item-item collaberrative filtering, which scales to massive datasets and produces high quality recommendation system in the real time. This system is a kind of a information filtering system which seeks to predict the "rating" or preferences which user is interested in.
+
+Importing libraries:
+We have imported libraries such as pandas(Python package providing fast, flexible, and expressive data structures) and sentiment intensity
+analyzer(Text analysis method that detects positive and negative polarity of opinion)from NLTK(Helps the computer to analysis, preprocess, and understand the written text).
+
+Data Acquisition:
+As machine learning is based on available data for the system to make a decision hence the first step defined in the architecture is data acquisition. This involves data collection,So we have collected the data from a csv file of amazon reviews.
+
+Data pre-processing:
+The received data in the data acquisition layer is then sent forward to the data processing layer where it is subjected to advanced integration and processing and involves normalization of the data and taking useful data from the raw data. For example, we have filtered out the product’s name and reviews from the raw data.
+
+Applying Algorithm:
+This layer of the architecture involves the selection of different algorithms. These algorithms are being evolved or being inherited from a set of libraries. so, here we have implemented sentiment intensity analyzer from NLTK. The algorithms are used to model the data according to the need.
+
+Data Evaluation:
+After applying machine learning algorithm from in-built function sentiment intense analyzer which uses algorithms linear regression, Naive Bayes (mostly used in text classification) and by using techniques like Natural Language Processing (NLP), With the help of these algorithms ,a score card of reviews is generated which ultimately gives the inclination reviews towards positive, negative and neutral sentiment. 
+
+Displaying Result:
+we will take the product name from the customer and will display the top 10 positive and negative reviews of that product in the table form.
