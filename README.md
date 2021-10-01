@@ -1,7 +1,5 @@
-# project-it-tmsl
 # Review Recommendation System from Amazon/Flipkart reviews.
 # code
-
 
 # importing libraries
 import pandas as pd
