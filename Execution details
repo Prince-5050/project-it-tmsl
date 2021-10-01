@@ -1,0 +1,7 @@
+Codes are available in readme.md file.
+Jupyter Notebook or any online python compiler can be used for execution.
+You can download the dataset "AllProductReviews.csv" available in the repository.
+In the code,commands are already given for importing and downoading  the libraries required for the program. 
+Change the location of the file for "loading csv file" as your downloaded csv file location.
+Execute the code,enter the input for required product available in the dataset.
+You will get top 10 positive and negative reviews for the desired product.
